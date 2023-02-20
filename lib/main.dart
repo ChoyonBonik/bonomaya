@@ -1,5 +1,5 @@
-import 'package:bonomaya/screens/indoorList.dart';
-import 'package:bonomaya/screens/outdoorList.dart';
+import 'package:bonomaya/screens/indoor_plantList.dart';
+import 'package:bonomaya/screens/outdoor_plantList.dart';
 import 'package:bonomaya/screens/plant_lists.dart';
 import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
