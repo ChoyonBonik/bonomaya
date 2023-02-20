@@ -166,7 +166,7 @@ class PlantDetail extends StatelessWidget {
                       ),
                       SizedBox(height: 12.0),
                       Text(
-                        'If you are completely new to houseplants then Ficus is a brilliant first plant to adopt, it is very easy to look after and won\'t occupy too much space.',
+                        'If you are completely new to houseplants then Ficus is a brilliant first plant to adopt.',
                         style: TextStyle(
                           fontFamily: 'Montserrat',
                           fontSize: 14.0,

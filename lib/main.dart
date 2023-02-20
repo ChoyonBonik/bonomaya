@@ -1,3 +1,5 @@
+import 'package:bonomaya/screens/indoorList.dart';
+import 'package:bonomaya/screens/outdoorList.dart';
 import 'package:bonomaya/screens/plant_lists.dart';
 import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
@@ -118,8 +120,8 @@ class _MyHomePageState extends State<MyHomePage>
                 controller: tabController,
                 children: <Widget>[
                   PlantList(),
-                  PlantList(),
-                  PlantList(),
+                  OutdoorPlantList(),
+                  IndoorPlantList(),
                   PlantList()
                 ],
               ),

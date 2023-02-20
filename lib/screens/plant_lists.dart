@@ -10,9 +10,10 @@ class _PlantListState extends State<PlantList> {
   late ScrollController _scrollController;
 
   List allDescriptions = [
-    'Aloe vera is a succelent plant of the genus Aloe. I\'ts medicinal uses and air purifying ability make it the plant that you shouldn\'t live without.',
-    'Some other description',
-    'Third description'
+    'bamboo Plant vera is a beautiful plant.',
+    'Oxalis Palnt is a beautiful plant.',
+    'ZZ Plant is a beautiful plant.',
+    'Jasmine Plant is a beautiful plant.',
   ];
 
   late String description;
@@ -48,13 +49,13 @@ class _PlantListState extends State<PlantList> {
             controller: _scrollController,
             scrollDirection: Axis.horizontal,
             children: <Widget>[
-              getPlantCard('assets/images/aloevera.png', '25', 'OUTDOOR', 'Aloe Vera'),
+              getPlantCard('assets/images/bambooPlant.png', '25', 'OUTDOOR', 'Bamboo Plant'),
               SizedBox(width: 15.0),
-              getPlantCard('assets/images/flowerplant.png', '25', 'INDOOR', 'Ficus'),
+              getPlantCard('assets/images/oxalisPlant.png', '25', 'INDOOR', 'Oxalis Plant'),
               SizedBox(width: 15.0),
-              getPlantCard('assets/images/whiteplant.png', '25', 'INDOOR', 'Ficus'),
+              getPlantCard('assets/images/zzPlant.png', '25', 'OUTDOOR', 'ZZ Plant'),
               SizedBox(width: 15.0),
-              getPlantCard('assets/images/ficus.png', '25', 'INDOOR', 'Ficus'),
+              getPlantCard('assets/images/jasminePlant.png', '25', 'INDOOR', 'Jasmine Plant'),
               SizedBox(width: 15.0),
             ],
           ),
@@ -163,63 +164,63 @@ class _PlantListState extends State<PlantList> {
                     ],
                   ),
                   SizedBox(height: 10.0),
-                  Row(
-                    children: <Widget>[
-                      SizedBox(width: 25.0),
-                      Container(
-                        height: 30.0,
-                        width: 30.0,
-                        decoration: BoxDecoration(
-                            border: Border.all(
-                                color: Color(0xFF8AC7A4),
-                                style: BorderStyle.solid,
-                                width: 0.5),
-                            borderRadius: BorderRadius.circular(5.0),
-                            color: Color(0xFF399D63)),
-                        child: Icon(Icons.wb_sunny,
-                            color: Colors.white.withOpacity(0.4), size: 20.0),
-                      ),
-                      SizedBox(width: 15.0),
-                      Container(
-                        height: 30.0,
-                        width: 30.0,
-                        decoration: BoxDecoration(
-                            border: Border.all(
-                                color: Color(0xFF8AC7A4),
-                                style: BorderStyle.solid,
-                                width: 0.5),
-                            borderRadius: BorderRadius.circular(5.0),
-                            color: Color(0xFF399D63)),
-                        child: Icon(Icons.branding_watermark,
-                            color: Colors.white.withOpacity(0.4), size: 20.0),
-                      ),
-                      SizedBox(width: 15.0),
-                      Container(
-                        height: 30.0,
-                        width: 30.0,
-                        decoration: BoxDecoration(
-                            border: Border.all(
-                                color: Color(0xFF8AC7A4),
-                                style: BorderStyle.solid,
-                                width: 0.5),
-                            borderRadius: BorderRadius.circular(5.0),
-                            color: Color(0xFF399D63)),
-                        child: Icon(Icons.hot_tub,
-                            color: Colors.white.withOpacity(0.4), size: 20.0),
-                      ),
-                      SizedBox(width: 10.0),
-                      InkWell(
-                        onTap: () {},
-                        child: Container(
-                          height: 30.0,
-                          width: 30.0,
-                          decoration: BoxDecoration(color: Color(0xFF399D63)),
-                          child: Icon(Icons.help_outline,
-                              color: Colors.white.withOpacity(0.4), size: 20.0),
-                        ),
-                      )
-                    ],
-                  )
+                  // Row(
+                  //   children: <Widget>[
+                  //     SizedBox(width: 25.0),
+                  //     Container(
+                  //       height: 30.0,
+                  //       width: 30.0,
+                  //       decoration: BoxDecoration(
+                  //           border: Border.all(
+                  //               color: Color(0xFF8AC7A4),
+                  //               style: BorderStyle.solid,
+                  //               width: 0.5),
+                  //           borderRadius: BorderRadius.circular(5.0),
+                  //           color: Color(0xFF399D63)),
+                  //       child: Icon(Icons.wb_sunny,
+                  //           color: Colors.white.withOpacity(0.4), size: 20.0),
+                  //     ),
+                  //     SizedBox(width: 15.0),
+                  //     Container(
+                  //       height: 30.0,
+                  //       width: 30.0,
+                  //       decoration: BoxDecoration(
+                  //           border: Border.all(
+                  //               color: Color(0xFF8AC7A4),
+                  //               style: BorderStyle.solid,
+                  //               width: 0.5),
+                  //           borderRadius: BorderRadius.circular(5.0),
+                  //           color: Color(0xFF399D63)),
+                  //       child: Icon(Icons.branding_watermark,
+                  //           color: Colors.white.withOpacity(0.4), size: 20.0),
+                  //     ),
+                  //     SizedBox(width: 15.0),
+                  //     Container(
+                  //       height: 30.0,
+                  //       width: 30.0,
+                  //       decoration: BoxDecoration(
+                  //           border: Border.all(
+                  //               color: Color(0xFF8AC7A4),
+                  //               style: BorderStyle.solid,
+                  //               width: 0.5),
+                  //           borderRadius: BorderRadius.circular(5.0),
+                  //           color: Color(0xFF399D63)),
+                  //       child: Icon(Icons.hot_tub,
+                  //           color: Colors.white.withOpacity(0.4), size: 20.0),
+                  //     ),
+                  //     SizedBox(width: 10.0),
+                  //     InkWell(
+                  //       onTap: () {},
+                  //       child: Container(
+                  //         height: 30.0,
+                  //         width: 30.0,
+                  //         decoration: BoxDecoration(color: Color(0xFF399D63)),
+                  //         child: Icon(Icons.help_outline,
+                  //             color: Colors.white.withOpacity(0.4), size: 20.0),
+                  //       ),
+                  //     )
+                  //   ],
+                  // )
                 ],
               ),
             ),
